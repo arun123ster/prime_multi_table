@@ -1,3 +1,8 @@
+/*
+Description: Program to Print Prime Numbers Multiplication Table
+Author: Arun Kumar <arun123ster@gmail.com>
+*/
+
 <?php 
 if(php_sapi_name() === 'cli'){ // check if executed thru command line or not
   @$limit = $_SERVER['argv'][1];
